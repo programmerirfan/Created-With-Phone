@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+a{text-decoration:none;color:black;cursor: pointer;}
+section {
+  margin-bottom: 20px;
+}
+body {}
+.header_area {height:30px;}
+.header_main_area {position: fixed;
+  width: 100%;
+box-shadow: 5px 5px 5px #00000063;
+    border-bottom: 1px solid dimgray;
+  background: white;
+overflow: hidden;
+
+}
+.container {
+  width: 355px;
+  margin: auto;
+  
+}
+.header_inner {margin-left: 5px;
+
+  display: table;
+  padding: 0px;
+
+  background: white;
+
+  width: 345px;
+  padding-bottom: 0px;
+}
+.logodiv {
+  width: 140px;
+  float: left;
+}
+.logoimg {
+  width: 133px;
+}
+.navbar {
+  width: 200px;
+  float: right;
+}
+.navbar ul {
+  line-height: 45px;
+  float: right;
+}
+.navbar ul li {transform:rotate(-10deg);
+  list-style: none;
+  display: inline-block;
+  padding: 2px 0px;
+}
+.navbar ul li a {
+  box-shadow: -5px 5px 5px dimgray;
+  text-decoration: none;
+  padding: 5px;
+  color: #464646;
+  font-size: 10px;
+  background: #e4e4e4c9;
+  font-family: Monaco;
+  border-radius: 1.5px;
+  transition: 0.5s;
+  border: 1px solid #6b6b6bd1;
+}
+.navbar ul li a:hover {
+  background: #19282b;
+  color: white;
+
+}
+.fornav{}
+.fornav:hover{}
+
+
+.exprguide{background:linear-gradient(to top,white,gray);color:black;text-align:center;
+text-shadow:-5px 5px 5px #272727;
+
+margin-top:30px;
+
+}
+.Guidelnk{text-align:center;margin:20px 13px;padding:3px;line-height:35px;}
+.Guidelnk ol li{transition:1s;list-style: none;background:linear-gradient(gray,white,white);}
+.Guidelnk ol li:hover{border:1px solid #122b2f;transform: translatey(-5px);}
+.listul{text-align:center;}
+.listul h3{margin-bottom:20px;padding:8px;background:red;color:white;border-left:5px solid black;border-right:5px solid black;}
+.listul li{box-shadow:5px 5px 5px #300909;border-left:5px solid black;transition:1s;background:#ff4e2f;color:white;display:block;padding:7px 50px;margin:auto;width:220px;border-bottom-right-radius:25px;font-size:14px;}
+.listul li:hover{transform: translatex(10px);}
+
+.sec3{}
+.imgwrap{width:350px;overflow:hidden;}
+.endimg1{width:350px;border:.5px solid black;margin-bottom:5px;}
+.endimg2{width:350px;border:.5px solid black;}
+.endimg1{max-width:100%;}
+.endimg2{max-width:100%;}
+.endimg1:before{position:relative;content:"Wikipedia";top:300px;font-size:100px; opacity:.1;right: 67px;display:inline-block;
+transform:rotate(-53deg);
+  
+}
+.endimg2:before{position:relative;content:"Wikipedia";top:300px;font-size:100px; opacity:.1;right: 67px;display:inline-block;
+transform:rotate(-53deg);
+  
+}
+img{max-width:100%;}
+
+.sec4{}
+.contentwrap{text-align:center;line-height:30px;}
+.the_content p{font-family:monospace;font-size:16px;}
+.the_icons {list-style: none;}
+.the_iconsli {background:limegreen;color:white;margin:8px 0px;border-left:10px solid white;border-right:10px solid white;border-radius:25px;border-top:5px solid black;border-bottom:5px solid black;}
+.fwa{margin-right:10px;font-size:20px;}
+
+.the_iconsli:hover .fwa{transform:skewx(180deg);transition:1.2s;}
+
+.the_content h3{margin:30px 0px 20px 0px;padding:2px;background:red;color:white;border-left:5px solid black;border-right:5px solid black;}
+.the_content p{background:linear-gradient(to left,#182c26,white,white,rgba(236,239,241,0.836),white,white,#182c26)}
+.the_items{list-style: circle;}
+.the_items li{color:white;transition:1s; margin:12px 0px;background:#ff4e2f!important;border-bottom-right-radius:25px;border-top-left-radius:25px;border-right:3px solid black;border-left:3px solid black;}
+.the_items li:hover{box-shadow:3px 3px 3px black}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footcopy {
+  background: #0e2024;
+  color: white;
+  padding: 5px;
+  height: 30px; margin-top:50px;
+
+}
+.footh5 {
+
+  text-align: center;
+  font-family: Sans-Serif;
+  line-height: 35px;}
