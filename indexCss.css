@@ -87,7 +87,7 @@ body {width:352px;}
 }
 .bnrimg {
   height: 170px;
-  width: 100%;
+  width: 352px;
   margin-top: 75px;
   border: 1px solid black;
   animation-name: banner;
