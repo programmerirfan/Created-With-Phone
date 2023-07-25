@@ -11,7 +11,7 @@ a {
 section {
   margin-bottom: 20px;
 }
-body {}
+body {width:352px;}
 .header_area {}
 .header_main_area {
   width: 100%;
