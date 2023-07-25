@@ -1,63 +1,65 @@
 * {
   margin: 0px;
   padding: 0px;
+}
 
+body {
+  width: 352px;
 }
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
+
+.header_area {
+  /* Add styles for the header area */
 }
-section {
-  margin-bottom: 20px;
-}
-body {width:352px;}
-.header_area {}
+
 .header_main_area {
   width: 100%;
   border-bottom: 1px solid dimgray;
   position: fixed;
   background: white;
-  box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.433);
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.433);
   margin-bottom: 45px;
 }
+
 .container {
   width: 352px;
   margin: auto;
- 
 }
+
 .header_inner {
   margin-left: 5px;
-
   display: table;
   padding: 0px;
-
   background: white;
-
   width: 345px;
   padding-bottom: 0px;
 }
+
 .logodiv {
   width: 140px;
   float: left;
 }
+
 .logoimg {
   width: 133px;
 }
+
 .navbar {
   width: 200px;
   float: right;
 }
+
 .navbar ul {
   line-height: 45px;
   float: right;
 }
+
 .navbar ul li {
   transform: rotate(-10deg);
   list-style: none;
   display: inline-block;
   padding: 2px 0px;
 }
+
 .navbar ul li a {
   box-shadow: -5px 5px 5px dimgray;
   text-decoration: none;
@@ -70,21 +72,16 @@ body {width:352px;}
   transition: 0.5s;
   border: 1px solid #6b6b6bd1;
 }
+
 .navbar ul li a:hover {
   background: #19282b;
   color: white;
-
-}
-.fornav {
- 
-}
-.fornav:hover {
- 
 }
 
 .sec_banner {
   margin-bottom: 10px;
 }
+
 .bnrimg {
   height: 170px;
   width: 352px;
@@ -96,316 +93,55 @@ body {width:352px;}
   box-shadow: 0px 0px 5px 5px #2b2b2b;
   transition: 2s;
 }
+
 @keyframes banner {
   from {
-    transform:scale(.01);
+    transform: scale(.01);
   }
   to {
-    transform:scale(1);
+    transform: scale(1);
   }
-
-
-
-
-
 }
+
 .bnrimg:hover {
-  transform: rotatey(360deg)rotatex(720deg)scale(.97)
+  transform: rotatey(360deg) rotatex(720deg) scale(.97);
 }
 
-.bnnrdiv {}
-.sec_div1 div {
-  display: inline-block;
-  margin-left: 2px;
-}
-.sec_div1 div img {
-  width: 110px;
-  padding: 1px;
-  transition: 1s;
+/* New CSS for alignment */
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.sec_div1 div img:hover {
-  transform: translatey(-8px)
+
+.sec_banner {
+  display: flex;
+  justify-content: center;
 }
-.spc_img1 {
-  height: 62px;
+
+.maindiv {
+  max-width: 500px;
+  /* Add any other styles you want for the skills section */
 }
-.sec_div1 h3 {
-  background: linear-gradient(limegreen,white,limegreen);
-  color: #3b3b3b;
-  padding: 5px;
-  margin-bottom: 12px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border: .1px solid #3b3b3b;
-  text-shadow: -5px 5px 5px rgb(31,131,15);
-  box-shadow: -5px 5px 5px dimgray;
-  transition: 2s;
+
+.secmaindiv {
+  background: #6c6c6c3e;
 }
-.sec_div1:hover h3 {
-  word-spacing: 35px;
-}
-.cent1 h5 {
-  margin-left: 3px;
-  line-height: 50px;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 18px;
-  text-shadow: -5px 5px 5px black;
-}
-.cent2 h2 {
-  border-top-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background: limegreen;
+
+.maindiv {
+  background: radial-gradient(white 30%, gray);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
   color: white;
-  transform: skewx(-15deg);
-  margin-bottom: 5px;
-  text-shadow: -8px 8px 8px #696969;
-}
-.divs {
-  background: linear-gradient(rgba(27,27,27,0.136),#dddddd);
-  padding: 5px;
-  color: #403f40;
-}
-.divshead {
-
-
-  font-family: Monospace;
-  background: white;
-  margin: 10px;
-  padding: 5px;
-  margin-bottom: 15px;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  font-weight: 100;
-
-}
-
-
-
-.Inp {
   margin-bottom: 10px;
-  text-align: center;
-  width: 306px;
-  height: 25px;
-  padding: 5px;
-  border: 1px solid #565858;
-  border-radius: 25px;
-  outline: none;
-  transition: 1s;
-}
-.Inp:hover {
-  padding: 5px 14px;
-}
-.bspan {
-  background: #fff;
-  padding-right: 11px;
-  padding-left: 11px;
-  border-bottom-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-.bpspan {
-  background: #fff;
-  padding-right: 137px;
-  padding-left: 137px;
-  margin: auto;
-  border-bottom-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-.bppspan {
-  background: #fff;
-  padding-right: 105px;
-  padding-left: 104px;
-  margin: auto;
-  border-bottom-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-.divbirth {
-  border-bottom: .1px solid #888888;
-  padding-bottom: 5px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.divgen {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.divage {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.gendiv {
-  margin-left: 68px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.divinpx {
-  text-align: center;
-}
-.ysnodiv {
-  margin: 10px;
-  color: white;
-  background: limegreen;
-  text-align: center;
-  border-radius: 20px;
-}
-.ysnodivn {
-  margin: 10px;
-  color: white;
-  background: red;
-  text-align: center;
-  border-radius: 20px;
-}
-.cmntinp {
-  padding: 5px;
-  width: 30%;
-  color: white;
-  background: linear-gradient(#ffffff7f,#383838,#383838,#ffffff7f);
-  outline: none;
-  border: .1px solid black;
-  border-radius: 3px;
-  transition: 1s;
-}
-.cmntinp:hover {
-  background: #383838;
-}
-
-
-
-
-.stay {
-  border: 2px solid #35484c;
-  margin-bottom: 10px;
-  border-bottom: 10px solid #253134;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-
-
-}
-.stay p {
-  padding: 5px;
-}
-.clckspan {
-  background: limegreen;
-  color: white;
-  border:;margin-top: 3px;
-  display: block;
-  text-align: center;
-  border-radius: 25px;
-  transition: 1s;
-  padding: 3.5px;
-  font-weight: 800;
-  font-size: 20px;
-}
-.clckspan:hover {
-  letter-spacing: 10px;
-  padding-right: px;
-  padding-left: px;
-}
-.divstayc {
-  transition: 2s;
-  margin-bottom: 20px;
-  border-bottom-right-radius: 8px;
-  border-top-left-radius: 8px;
-  padding: 5px;
-  border: 2px solid #1c2626;
-  font-family: monospace;
-  background: linear-gradient(#293639,white,white,white,#293639);
-  word-spacing: 10px;
-  font-size: 15px;
-}
-.divlog {
-  text-align: center;
-  display:;padding: 10px;
-  background: linear-gradient(#1f2e33,white,white,#1f2e33);
-  border-radius: 8px;
-}
-.logcls {
-  word-spacing: 5px;
-  transition: 1.5s;
-  margin: auto;
-  margin-top: 25px;
-  padding: 5px;
-  margin-bottom: 35px;
-  font-size: 16px;
-  border-bottom: 4px solid #293639;
-  border-top: 4px solid #293639;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-.accspn {
-  letter-spacing: 4px;
-  color: white;
-}
-.logcls:hover {
-  background: linear-gradient(#293639,#ffffffa3,#293639);
-  color: white;
-}
-.logaa {
-  color: black;
-  text-decoration: none;
-}
-.divstayc:hover {
-  border: .05px solid white;
-  transform: translatey(-15px);
-  background: radial-gradient(white .10%,#293639);
-  color: white;
-  text-shadow: -5px 5px 5px black;
-  box-shadow: -5px 5px 5px #293639
-}
-
-
-.signupspan {
-  letter-spacing: 10px;
-  display: block;
-  text-align: center;
-}
-
-.inpsp {
-  width: 100%;
-  height: 40px;
-  margin-top: 10px;
-  color: white;
-  background: linear-gradient(to left,white,limegreen,limegreen,limegreen,white);
-  font-weight: 1000;
-  font-size: 20px;
-  outline: none;
-  border-radius: 20px;
-  border: 1px solid white;
-  transition: 1s;
-  margin: auto;
-  text-align: center;
-}
-.inpsp:hover {
-  background: limegreen;
-  border: 2px solid white;
-}
-.secbg {
-  background: linear-gradient(to left,#202c2f,#ffffff51,white,#ffffff51,#202c2f);
-
-
-
-}
-.divclax {
-  border-left: 5px solid tomato;
-  border-right: 5px solid tomato;
-  transition: 2s;
-  border-radius: 10px;
-
-}
-
-.divclax:hover {
-  border-left: 8px solid tomato;
-  border-right: 8px solid tomato;
-  border-radius: 15px;
 }
 
 .hd3 {
   padding-top: 3px;
   text-transform: uppercase;
-  font-family: arial black;
+  font-family: Arial Black;
   text-align: center;
   font-weight: 250;
   border-bottom: 5px solid tomato;
@@ -413,7 +149,6 @@ body {width:352px;}
   transition: 2s;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-
 }
 
 .hd3:hover {
@@ -421,79 +156,6 @@ body {width:352px;}
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.thespan {
-  text-align: center;
-  font-family: cursive;
-  margin: auto;
-  border-bottom: 1px solid tomato;
-  border-radius: 10px;
-}
-.divclax2 {
-  margin-top: 8px;
-  text-align: center;
-
-}
-
-.divclax2 ul {
-  list-style: none;
-}
-.divclax2 ul li {
-  padding: 10px;
-  transition: 1s;
-  text-shadow: -7px 4px 3px white;
-}
-.divclax2 ul li:hover {
-  background: linear-gradient( to left,white, #212d2f, #212d2f, #212d2f,white);
-  color: white;
-  font-size: px;
-  padding: 25px;
-}
-.ppp {
-  text-align: center;
-  background: #dfdfdf;
-  color: black;
-  font-family: monospace;
-  font-weight: 400px;
-  font-size: 20px;
-  text-transform: uppercase;
-  overflow: hidden;
-}
-.spn {
-  background: #ffffff;
-  margin: 5px;
-  color: black;
-  display: block;
-  margin-top: 10px;
-  border-radius: 50px;
-  box-shadow: -5px 5px 5px black;
-  transition: 1s;
-}
-.spn:hover {
-  letter-spacing: 20px;
-  background: #171717;
-  color: white;
-  border-bottom-right-radius: 8px;
-  border-top-left-radius: 8px;
-}
-.spnn:hover {
-  letter-spacing: 20px;
-  background: #1c2a2d;
-  color: white;
-  border-bottom-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-.spnn {
-  background: #929393;
-  color: white;
-  display: block;
-  margin: 10px;
-  border-radius: 50px;
-
-  box-shadow: -5px 5px 5px #232323;
-  transition: 1s;
-}
-
-
 
 .skillh2 {
   text-align: center;
@@ -502,6 +164,9 @@ body {width:352px;}
   border-radius: 2px;
   text-shadow: -3px 3px 3px white;
 }
+
+/* The rest of your existing CSS code continues below */
+
 .secmaindiv {
   background: #6c6c6c3e;
 }
